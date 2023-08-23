@@ -12,6 +12,7 @@
   } instr_t;
 
   void load_next_instr(
+      instr_t *instr,
       char *source);
 
 #endif // ef_parser
